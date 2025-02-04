@@ -1,4 +1,4 @@
-####ERDOS simulations using as null edge density and same number of nodes as observed playtime network!!
+####Null network simulations using as null edge density and same number of nodes as observed playtime network!!
 ###Libraries
 library(igraph)
 library(ggplot2)
@@ -6,7 +6,6 @@ library(brainGraph)
 library(ggpubr)
 
 ### Playtime igraph for each group
-
 #### PLA Network
 pla.data <- read.csv2("PLAnettime.csv", header = TRUE, row.names = 1)
 pla.matrix <- as.matrix(pla.data)
@@ -48,9 +47,6 @@ sn.data <- read.csv2("SNnettime.csv", header = TRUE, row.names = 1)
 sn.matrix <- as.matrix(sn.data)
 sn.network <- graph.adjacency(sn.matrix, mode = "undirected",
                               diag = FALSE, weighted = TRUE)
-
-
-
 
 
 
@@ -460,7 +456,7 @@ apl.g
 
 
 # Calculate the proportion of graphs with an average
-#path smaller greater than the one of the observed network
+#path greater than the one of the observed network
 mean(se.sim.meand > mean_distance(se.network))
 mean(aga.sim.meand > mean_distance(aga.network))
 mean(ch.sim.meand > mean_distance(ch.network))
