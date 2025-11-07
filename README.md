@@ -1,7 +1,9 @@
-Asensio, N., Zandonà, E., Dunn, J.C. et al. The Network Structure of Social Play: Insights into Group Cohesion and Dynamics from Mantled Howler Monkeys (Alouatta palliata). Int J Primatol (2025). https://doi.org/10.1007/s10764-025-00522-1
-
 ![Alt text](image/howlers playing.jpg)
 # Howler Monkeys´ play networks
+
+Asensio, N., Zandonà, E., Dunn, J.C. et al. The Network Structure of Social Play: Insights into Group Cohesion and Dynamics from Mantled Howler Monkeys (Alouatta palliata). Int J Primatol (2025). https://doi.org/10.1007/s10764-025-00522-1
+
+
 
 ![Alt text](image/Sim15.png)
 
